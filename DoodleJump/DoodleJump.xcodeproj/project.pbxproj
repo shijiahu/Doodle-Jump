@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B78C1DB31E562F68004C423D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B78C1DB21E562F68004C423D /* main.m */; };
+		B78C1DB61E562F68004C423D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B78C1DB51E562F68004C423D /* AppDelegate.m */; };
+		B78C1DB91E562F68004C423D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78C1DB81E562F68004C423D /* ViewController.m */; };
+		B78C1DBC1E562F68004C423D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78C1DBA1E562F68004C423D /* Main.storyboard */; };
+		B78C1DBE1E562F68004C423D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78C1DBD1E562F68004C423D /* Assets.xcassets */; };
+		B78C1DC11E562F68004C423D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78C1DBF1E562F68004C423D /* LaunchScreen.storyboard */; };
+		B78C1DCC1E562F68004C423D /* DoodleJumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78C1DCB1E562F68004C423D /* DoodleJumpTests.m */; };
+		B78C1DD71E562F68004C423D /* DoodleJumpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78C1DD61E562F68004C423D /* DoodleJumpUITests.m */; };
+		B7AF0BC51E58A8D40062BBD7 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF0BC41E58A8D40062BBD7 /* GameView.m */; };
+		B7AF0BC91E58A94E0062BBD7 /* Jumper.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF0BC81E58A94E0062BBD7 /* Jumper.m */; };
+		B7AF0BCB1E58A95D0062BBD7 /* Brick.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF0BCA1E58A95D0062BBD7 /* Brick.m */; };
+		B7AF0BD01E593A8C0062BBD7 /* doodle3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B7AF0BCF1E593A8C0062BBD7 /* doodle3.jpeg */; };
+		B7AF0BD21E5941F90062BBD7 /* doodle2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B7AF0BD11E5941F90062BBD7 /* doodle2.jpeg */; };
+		B7EC72541E59678C005DDDEB /* doodle4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B7EC72531E59678C005DDDEB /* doodle4.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B78C1DC81E562F68004C423D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78C1DA61E562F67004C423D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78C1DAD1E562F67004C423D;
+			remoteInfo = DoodleJump;
+		};
+		B78C1DD31E562F68004C423D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78C1DA61E562F67004C423D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78C1DAD1E562F67004C423D;
+			remoteInfo = DoodleJump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B78C1DAE1E562F68004C423D /* DoodleJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodleJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78C1DB21E562F68004C423D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B78C1DB41E562F68004C423D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B78C1DB51E562F68004C423D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B78C1DB71E562F68004C423D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B78C1DB81E562F68004C423D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B78C1DBB1E562F68004C423D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B78C1DBD1E562F68004C423D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B78C1DC01E562F68004C423D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B78C1DC21E562F68004C423D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78C1DC71E562F68004C423D /* DoodleJumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleJumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78C1DCB1E562F68004C423D /* DoodleJumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoodleJumpTests.m; sourceTree = "<group>"; };
+		B78C1DCD1E562F68004C423D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78C1DD21E562F68004C423D /* DoodleJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoodleJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78C1DD61E562F68004C423D /* DoodleJumpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoodleJumpUITests.m; sourceTree = "<group>"; };
+		B78C1DD81E562F68004C423D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7AF0BC41E58A8D40062BBD7 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		B7AF0BC61E58A8E30062BBD7 /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		B7AF0BC71E58A9420062BBD7 /* Jumper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jumper.h; sourceTree = "<group>"; };
+		B7AF0BC81E58A94E0062BBD7 /* Jumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jumper.m; sourceTree = "<group>"; };
+		B7AF0BCA1E58A95D0062BBD7 /* Brick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brick.m; sourceTree = "<group>"; };
+		B7AF0BCC1E58A9680062BBD7 /* Brick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Brick.h; sourceTree = "<group>"; };
+		B7AF0BCF1E593A8C0062BBD7 /* doodle3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doodle3.jpeg; sourceTree = "<group>"; };
+		B7AF0BD11E5941F90062BBD7 /* doodle2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doodle2.jpeg; sourceTree = "<group>"; };
+		B7EC72531E59678C005DDDEB /* doodle4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doodle4.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B78C1DAB1E562F67004C423D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78C1DC41E562F68004C423D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78C1DCF1E562F68004C423D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B78C1DA51E562F67004C423D = {
+			isa = PBXGroup;
+			children = (
+				B78C1DB01E562F68004C423D /* DoodleJump */,
+				B78C1DCA1E562F68004C423D /* DoodleJumpTests */,
+				B78C1DD51E562F68004C423D /* DoodleJumpUITests */,
+				B78C1DAF1E562F68004C423D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B78C1DAF1E562F68004C423D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78C1DAE1E562F68004C423D /* DoodleJump.app */,
+				B78C1DC71E562F68004C423D /* DoodleJumpTests.xctest */,
+				B78C1DD21E562F68004C423D /* DoodleJumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B78C1DB01E562F68004C423D /* DoodleJump */ = {
+			isa = PBXGroup;
+			children = (
+				B78C1DB41E562F68004C423D /* AppDelegate.h */,
+				B78C1DB51E562F68004C423D /* AppDelegate.m */,
+				B78C1DB71E562F68004C423D /* ViewController.h */,
+				B78C1DB81E562F68004C423D /* ViewController.m */,
+				B7AF0BC41E58A8D40062BBD7 /* GameView.m */,
+				B7AF0BC61E58A8E30062BBD7 /* GameView.h */,
+				B7AF0BC71E58A9420062BBD7 /* Jumper.h */,
+				B7AF0BC81E58A94E0062BBD7 /* Jumper.m */,
+				B7AF0BD11E5941F90062BBD7 /* doodle2.jpeg */,
+				B7AF0BCF1E593A8C0062BBD7 /* doodle3.jpeg */,
+				B7EC72531E59678C005DDDEB /* doodle4.jpeg */,
+				B7AF0BCA1E58A95D0062BBD7 /* Brick.m */,
+				B7AF0BCC1E58A9680062BBD7 /* Brick.h */,
+				B78C1DBA1E562F68004C423D /* Main.storyboard */,
+				B78C1DBD1E562F68004C423D /* Assets.xcassets */,
+				B78C1DBF1E562F68004C423D /* LaunchScreen.storyboard */,
+				B78C1DC21E562F68004C423D /* Info.plist */,
+				B78C1DB11E562F68004C423D /* Supporting Files */,
+			);
+			path = DoodleJump;
+			sourceTree = "<group>";
+		};
+		B78C1DB11E562F68004C423D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B78C1DB21E562F68004C423D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B78C1DCA1E562F68004C423D /* DoodleJumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				B78C1DCB1E562F68004C423D /* DoodleJumpTests.m */,
+				B78C1DCD1E562F68004C423D /* Info.plist */,
+			);
+			path = DoodleJumpTests;
+			sourceTree = "<group>";
+		};
+		B78C1DD51E562F68004C423D /* DoodleJumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B78C1DD61E562F68004C423D /* DoodleJumpUITests.m */,
+				B78C1DD81E562F68004C423D /* Info.plist */,
+			);
+			path = DoodleJumpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B78C1DAD1E562F67004C423D /* DoodleJump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78C1DDB1E562F68004C423D /* Build configuration list for PBXNativeTarget "DoodleJump" */;
+			buildPhases = (
+				B78C1DAA1E562F67004C423D /* Sources */,
+				B78C1DAB1E562F67004C423D /* Frameworks */,
+				B78C1DAC1E562F67004C423D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoodleJump;
+			productName = DoodleJump;
+			productReference = B78C1DAE1E562F68004C423D /* DoodleJump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B78C1DC61E562F68004C423D /* DoodleJumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78C1DDE1E562F68004C423D /* Build configuration list for PBXNativeTarget "DoodleJumpTests" */;
+			buildPhases = (
+				B78C1DC31E562F68004C423D /* Sources */,
+				B78C1DC41E562F68004C423D /* Frameworks */,
+				B78C1DC51E562F68004C423D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78C1DC91E562F68004C423D /* PBXTargetDependency */,
+			);
+			name = DoodleJumpTests;
+			productName = DoodleJumpTests;
+			productReference = B78C1DC71E562F68004C423D /* DoodleJumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B78C1DD11E562F68004C423D /* DoodleJumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78C1DE11E562F68004C423D /* Build configuration list for PBXNativeTarget "DoodleJumpUITests" */;
+			buildPhases = (
+				B78C1DCE1E562F68004C423D /* Sources */,
+				B78C1DCF1E562F68004C423D /* Frameworks */,
+				B78C1DD01E562F68004C423D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78C1DD41E562F68004C423D /* PBXTargetDependency */,
+			);
+			name = DoodleJumpUITests;
+			productName = DoodleJumpUITests;
+			productReference = B78C1DD21E562F68004C423D /* DoodleJumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B78C1DA61E562F67004C423D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "shijia hu";
+				TargetAttributes = {
+					B78C1DAD1E562F67004C423D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B78C1DC61E562F68004C423D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B78C1DAD1E562F67004C423D;
+					};
+					B78C1DD11E562F68004C423D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B78C1DAD1E562F67004C423D;
+					};
+				};
+			};
+			buildConfigurationList = B78C1DA91E562F67004C423D /* Build configuration list for PBXProject "DoodleJump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B78C1DA51E562F67004C423D;
+			productRefGroup = B78C1DAF1E562F68004C423D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B78C1DAD1E562F67004C423D /* DoodleJump */,
+				B78C1DC61E562F68004C423D /* DoodleJumpTests */,
+				B78C1DD11E562F68004C423D /* DoodleJumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B78C1DAC1E562F67004C423D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7AF0BD21E5941F90062BBD7 /* doodle2.jpeg in Resources */,
+				B7EC72541E59678C005DDDEB /* doodle4.jpeg in Resources */,
+				B7AF0BD01E593A8C0062BBD7 /* doodle3.jpeg in Resources */,
+				B78C1DC11E562F68004C423D /* LaunchScreen.storyboard in Resources */,
+				B78C1DBE1E562F68004C423D /* Assets.xcassets in Resources */,
+				B78C1DBC1E562F68004C423D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78C1DC51E562F68004C423D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78C1DD01E562F68004C423D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B78C1DAA1E562F67004C423D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78C1DB91E562F68004C423D /* ViewController.m in Sources */,
+				B78C1DB61E562F68004C423D /* AppDelegate.m in Sources */,
+				B7AF0BC51E58A8D40062BBD7 /* GameView.m in Sources */,
+				B7AF0BCB1E58A95D0062BBD7 /* Brick.m in Sources */,
+				B78C1DB31E562F68004C423D /* main.m in Sources */,
+				B7AF0BC91E58A94E0062BBD7 /* Jumper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78C1DC31E562F68004C423D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78C1DCC1E562F68004C423D /* DoodleJumpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78C1DCE1E562F68004C423D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78C1DD71E562F68004C423D /* DoodleJumpUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B78C1DC91E562F68004C423D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78C1DAD1E562F67004C423D /* DoodleJump */;
+			targetProxy = B78C1DC81E562F68004C423D /* PBXContainerItemProxy */;
+		};
+		B78C1DD41E562F68004C423D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78C1DAD1E562F67004C423D /* DoodleJump */;
+			targetProxy = B78C1DD31E562F68004C423D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B78C1DBA1E562F68004C423D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78C1DBB1E562F68004C423D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B78C1DBF1E562F68004C423D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78C1DC01E562F68004C423D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B78C1DD91E562F68004C423D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B78C1DDA1E562F68004C423D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B78C1DDC1E562F68004C423D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoodleJump/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shijia.DoodleJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B78C1DDD1E562F68004C423D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoodleJump/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shijia.DoodleJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B78C1DDF1E562F68004C423D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoodleJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shijia.DoodleJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoodleJump.app/DoodleJump";
+			};
+			name = Debug;
+		};
+		B78C1DE01E562F68004C423D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoodleJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shijia.DoodleJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoodleJump.app/DoodleJump";
+			};
+			name = Release;
+		};
+		B78C1DE21E562F68004C423D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoodleJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shijia.DoodleJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoodleJump;
+			};
+			name = Debug;
+		};
+		B78C1DE31E562F68004C423D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoodleJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shijia.DoodleJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoodleJump;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B78C1DA91E562F67004C423D /* Build configuration list for PBXProject "DoodleJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78C1DD91E562F68004C423D /* Debug */,
+				B78C1DDA1E562F68004C423D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78C1DDB1E562F68004C423D /* Build configuration list for PBXNativeTarget "DoodleJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78C1DDC1E562F68004C423D /* Debug */,
+				B78C1DDD1E562F68004C423D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78C1DDE1E562F68004C423D /* Build configuration list for PBXNativeTarget "DoodleJumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78C1DDF1E562F68004C423D /* Debug */,
+				B78C1DE01E562F68004C423D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78C1DE11E562F68004C423D /* Build configuration list for PBXNativeTarget "DoodleJumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78C1DE21E562F68004C423D /* Debug */,
+				B78C1DE31E562F68004C423D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B78C1DA61E562F67004C423D /* Project object */;
+}
